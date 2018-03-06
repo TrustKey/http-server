@@ -1,0 +1,15 @@
+{
+  "name": "tk_http_server",
+  "version": "0.0.1",
+  "main": "module.js",
+  "private": true,
+  "plugin": {
+    "provides": [
+      "http_server"
+    ]
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
